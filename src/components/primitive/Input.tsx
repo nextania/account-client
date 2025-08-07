@@ -45,7 +45,7 @@ const InputLabel = styled.label`
     ${(props: { focused: boolean; empty: boolean }) => props.focused || !props.empty ? `
         font-size: 0.75rem;
         transform: translateY(-100%);
-        background: white;
+        background: var(--form-background-right);
         color: var(--secondary);
         ` : ""}
         

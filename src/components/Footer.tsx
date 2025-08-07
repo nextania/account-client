@@ -20,7 +20,7 @@ const Footer = ({ desktop }: { desktop: boolean; }) => {
             <p>Nextania Account Services</p>
             <p>{t("ACCOUNT_SERVICES_VERSION")?.replace("{}", VERSION)}</p>
             <p>{t("ACCOUNT_SERVICES_COPYRIGHT")?.replace("{}", new Date().getUTCFullYear().toString())}</p>
-            <p><Link href="https://nextflow.cloud/terms">{t("TERMS")}</Link> | <Link href="https://nextflow.cloud/privacy">{t("PRIVACY")}</Link></p>
+            <p><Link href="https://nextania.com/terms">{t("TERMS")}</Link> | <Link href="https://nextania.com/privacy">{t("PRIVACY")}</Link></p>
         </FooterBase>
     );
 };

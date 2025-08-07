@@ -13,7 +13,7 @@ const FormBase = styled.form`
     padding-left: 4rem;
     padding-right: 4rem;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: var(--form-background-right);
     width: 62%;
 
     opacity: ${(props: { loading: Accessor<boolean>; }) => props.loading() ? 0.5 : 1};
@@ -22,7 +22,7 @@ const FormBase = styled.form`
 const FormContainerDesktop = styled.div`
     display: flex;
     backdrop-filter: blur(12px);
-    background-color: rgb(255 255 255 / 0.1);
+    background-color: var(--form-background);
     color: var(--foreground);
     overflow: hidden;
     width: 750px;

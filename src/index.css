@@ -28,6 +28,17 @@ html, body, #root {
   --foreground-border: #7a7a7a;
 
   --background: linear-gradient(135deg, rgba(177,115,255,1) 0%, rgba(255,196,194,1) 40%, rgba(141,255,144,1) 100%);
+  --form-background: rgb(255 255 255 / 0.1);
+  --form-background-right: #ffffff;
+}
+@media (prefers-color-scheme: dark) {
+  * {
+    --foreground: hsl(240 3.7% 90%);
+    --foreground-border: #7a7a7a;
+    --form-background: rgb(0 0 0 / 0.1);
+    --form-background-right: #000000;
+    --background: linear-gradient(135deg, rgb(70, 45, 101) 0%, rgb(116, 87, 86) 40%, rgb(40, 67, 40) 100%);
+  }
 }
 
 body {

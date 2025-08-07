@@ -1,7 +1,7 @@
 export const upload = async (file: File, path: string): Promise<string> => {
     const formData = new FormData();
     formData.append("file", file);
-    const response = await fetch(`https://cdn.nextflow.cloud/stores/${path}`, {
+    const response = await fetch(`https://cdn.nextania.com/stores/${path}`, {
         method: "POST",
         body: formData
     });

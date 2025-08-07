@@ -109,7 +109,7 @@ const Profile = ({ loading, setLoading }: { loading: Accessor<boolean>; setLoadi
             <Section>
                 <AvatarConfigurator>
                     <AvatarContainer onClick={handleAvatarChange}>
-                        <img src={`https://cdn.nextflow.cloud/stores/avatars/files/1.png`} alt="avatar" />
+                        <img src={`https://cdn.nextania.com/stores/avatars/files/1.png`} alt="avatar" />
                     </AvatarContainer>
                     <Button>{t("REMOVE_AVATAR")}</Button>
                 </AvatarConfigurator>
